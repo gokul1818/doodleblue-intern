@@ -1,0 +1,107 @@
+/* gokulakrishnan */
+:root {
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: var(--clr-gray);
+    margin: 20px;
+  }
+  
+  .wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+  }
+  
+  
+  .container {
+    box-shadow: 0px 2px 8px 5px var(--clr-gray-light);
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+  } 
+
+
+  
+  .profile-img {
+    
+    border-radius: 10px;
+    margin: 10px;
+    max-height: 150px;
+    
+   
+
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .split{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .description {
+    margin: 10px 50px;
+    font-size: 15px;
+    text-align: start;
+    text-decoration: dotted;
+font-style: italic;
+  }
+  .split i{
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  
+  .mrp{
+    text-decoration: line-through;
+    color: red;
+  }
+  .split .cart{
+    margin-right: 10px;
+
+  }
+  .btn {
+    
+    width: 50%;
+    border: none;
+margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+    background-color: var(--clr-primary);
+  }
+  @media  screen and (min-width:600px) {
+    .wrapper-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+  }
+  @media  screen and (min-width:768px) {
+    .wrapper-grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+  }
+  @media  screen and (min-width:992px) {
+    .wrapper-grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+  }
