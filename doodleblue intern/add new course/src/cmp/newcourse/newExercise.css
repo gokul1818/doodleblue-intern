@@ -1,0 +1,43 @@
+.newexercise{
+width: 90%;
+margin: auto;
+background: rgb(120, 78, 160);
+border-radius: 10px;
+padding: 0 10px;
+
+}
+.newexercise button{
+    cursor: pointer;
+    border: 1px solid #40005d;
+background-color: #40005d;
+color: white;
+border-radius: 12px;
+margin: 10px 20px;
+padding: 10px 10px;
+font-size: medium;
+font-weight: 400;
+}
+.newexercise button:hover,.newexercise button:active{
+    background-color: #510674;
+    border-color: aliceblue;
+}
+
+
+
+
+@media screen and (min-width:600px) {
+    .newexercise {
+
+        margin: auto;
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .newexercise {
+
+        margin: auto;
+        width: 70%;
+    }
+}

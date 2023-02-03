@@ -1,0 +1,75 @@
+.exe {
+    background: rgb(27, 24, 24);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.exercise {
+    background: rgb(95, 95, 95);
+
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 2;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.price {
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(97, 0, 253);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    height: 50px;
+    text-align: center;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 10px;
+    margin: 5px 20px;
+
+}
+
+
+
+@media screen and (min-width:600px) {
+    .exe {
+
+        margin: 10px auto;
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .exe {
+
+        margin:10px auto;
+        width: 70%;
+    }
+}

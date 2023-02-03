@@ -1,0 +1,37 @@
+.formcontrol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+    text-align: left;
+
+}
+
+.formcontrol label {
+    display: block;
+    font-weight: bold;
+    margin: 0 10px;
+
+}
+
+.formcontrol input {
+    font: inherit;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+    margin: 10px;
+
+
+
+}
+.addcourse{
+    font-size: larger;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.formsubmit {
+    text-align: right;
+}
